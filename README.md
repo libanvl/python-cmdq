@@ -1,8 +1,8 @@
 ![CI](https://github.com/libanvl/python-qcmd/workflows/CI/badge.svg)
-![PyPi](https://github.com/libanvl/python-qcmd/workflows/Upload%20Python%20Package/badge.svg?event=release)
+[![PyPI version](https://badge.fury.io/py/qcmd.svg)](https://badge.fury.io/py/qcmd)
 
 # python-qcmd
-Synchronous threadpool command queueing for Python 3.8
+Synchronous concurrent executor command queueing for Python 3.8
 
 # Developing
 ## Install pipx if pipenv is not installed
