@@ -1,4 +1,5 @@
 .vscode/settings.json
+pythonenv*/
 
 # nodeenv
 node_modules/

@@ -54,7 +54,9 @@ class CommandHandle(Generic[I, R]):
     onresult: Optional[Callable[[R, Tags], None]] = None
     onerror: ErrorCallback = _DefaultErrorCallback()
 
-    def __init__(self, pri: int, entry: int, cmdid: I, tags: Tags = [], procname=None) -> None:
+    def __init__(
+        self, pri: int, entry: int, cmdid: I, tags: Tags = [], procname: Optional[str] = None
+    ) -> None:
         self.pri = pri
         self.entry = entry
         self.cmdid = cmdid
